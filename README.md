@@ -1,2 +1,2 @@
 # leetCodeSolutions
-truly horrible leetcode solutions + actually optimal solutions 
+Project to simplify tracking leetCode problems, helps wth revisions, practice and interview prep 
