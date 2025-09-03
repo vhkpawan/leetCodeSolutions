@@ -1,0 +1,22 @@
+**TAGS**
+NUMBERS,2DARR,BACK-TRACKING 
+**MY_APPROACH**
+SCRIPT META DATA 
+Name: Pawan HK 
+Date: 09/03/2025 
+ID: 37
+Problem: Sudoku Solver
+Difficulty: HARD 
+Status: NOT_ATTEMPTED
+**OPTIMAL_APPROACH**
+Name: Optimal 
+Date: 09/03/2025 
+ID: 37
+Problem: Sudoku Solver
+Difficulty: HARD 
+Time Complexity: O(N^2)
+Runtime: 3315ms 
+Beats: 16.29%
+Memory: 18.04MB
+MBeats: 38.23%
+Credits: NeetCode - Editorial + ChatGPT 

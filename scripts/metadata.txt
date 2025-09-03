@@ -1,0 +1,5 @@
+Name: Pawan HK
+Date: 08/29/2025
+DS: Hash Set
+Utilization: 36
+Description: A HashSet is a data structure that stores unique elements and provides very fast operations for adding, removing, and checking membership. It is usually implemented using a hash table under the hood.
