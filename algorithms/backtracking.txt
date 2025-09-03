@@ -1,0 +1,47 @@
+1.) Backtracking 
+
+A simple algo to recursivley try all possibilities 
+
+
+Scenario:
+Imagine a sudo board, you need to solve the given puzzle, in code the best way to do it is to 
+implement backtracking. So start at the first empty cell and try a number, now simply keep calling
+the recursive function until the function can not place a number without a conflict, when a 
+conflict arrises, go back to the last number and try a different number, keep doing this until a 
+solution has been reached, at which point the first number is correct, the board is solved. 
+
+Algo in Code:
+def backtrack(state):
+    # Base case: if the state is complete, return True (solved)
+    if is_complete(state):
+        return True
+
+    # Try all possible choices for the current step
+    for choice in choices_for(state):
+        if is_valid(state, choice):
+            # Make the choice
+            make_choice(state, choice)
+
+            # Recurse deeper
+            if backtrack(state):
+                return True
+
+            # Undo the choice (backtrack)
+            undo_choice(state, choice)
+
+    # No choice worked, return False
+    return False
+
+
+In steps:
+1.) Start with the first empty spot (or step).
+
+2.) Try a choice (e.g., a number, a path, etc.).
+
+3.) Check validity — if it works, recurse further.
+
+4.) If recursion fails, undo the choice and try the next.
+
+5.) If nothing works, return failure.
+
+6.) If you reach the base case, you’ve solved the problem.

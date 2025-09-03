@@ -1,19 +1,3 @@
-""" --------------------------------------------------------------------------------------------- 
-SCRIPT META DATA
-Name: Optimal 
-Date: 08/29/2025 
-ID: 36
-Problem: Valid Sudoku
-Difficulty: Medium 
-Time Complexity: O(N^2)
-Runtime: 7ms 
-Beats: 37.12%
-Memory: 17.67MB
-MBeats: 92.34%
-Credits: NeetCode - https://www.youtube.com/watch?v=TjFXEUCMqI8
-END DATA
---------------------------------------------------------------------------------------------- """
-
 import collections
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:

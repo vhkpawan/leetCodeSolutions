@@ -1,0 +1,28 @@
+**TAGS**
+NUMBERS,2DARR,HASHING,HASH-SETS
+**MY_APPROACH**
+SCRIPT META DATA 
+Name: Pawan HK 
+Date: 08/29/2025 
+ID: 36
+Problem: Valid Sudoku
+Difficulty: Medium 
+Time: 00:36:59
+Time Complexity: N^2
+Runtime: 2ms 
+Beats: 85.78%
+Memory: 17.98MB 
+MBeats: 24.98%
+Status: COMPLETED
+**OPTIMAL_APPROACH**
+Name: Optimal 
+Date: 08/29/2025 
+ID: 36
+Problem: Valid Sudoku
+Difficulty: Medium 
+Time Complexity: O(N^2)
+Runtime: 7ms 
+Beats: 37.12%
+Memory: 17.67MB
+MBeats: 92.34%
+Credits: NeetCode - https://www.youtube.com/watch?v=TjFXEUCMqI8
